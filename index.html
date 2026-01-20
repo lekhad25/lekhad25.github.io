@@ -1,133 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Lekha Durge | iOS Developer</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lekha Durge | iOS Developer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header class="hero">
+  <!-- Header -->
+  <header class="hero">
     <h1>Lekha Durge</h1>
-    <p>iOS Developer • Swift • UIKit • MVVM</p>
+    <p class="subtitle">iOS Developer • Swift • UIKit • MVVM</p>
     <div class="links">
-        <a href="https://www.linkedin.com/in/lekha-durge0507/" target="_blank">LinkedIn</a>
-        <a href="mailto:lekha0507d@gmail.com">Email</a>
-        <a href="https://github.com/your-github-username" target="_blank">GitHub</a>
+      <a href="https://github.com/lekhad25" target="_blank">GitHub</a>
+      <a href="mailto:yourmail@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/your-link" target="_blank">LinkedIn</a>
     </div>
-</header>
+  </header>
 
-<section class="section">
-    <h2>About Me</h2>
-    <p>
-        iOS Developer with experience building and maintaining large-scale production apps.
-        I have worked on 12+ iOS applications involving real-time systems, complex API flows,
-        token-based authentication, and modular architectures using MVC/MVVM.
-        Passionate about clean code, performance optimization, and scalable app design.
-    </p>
-</section>
+  <!-- Projects -->
+  <section class="section">
+    <h2>Selected Projects</h2>
 
-<section class="section">
-    <h2>Skills</h2>
-    <div class="skills">
-        <span>Swift</span>
-        <span>UIKit</span>
-        <span>SwiftUI</span>
-        <span>MVVM</span>
-        <span>REST APIs</span>
-        <span>Socket.IO</span>
-        <span>Core Data</span>
-        <span>MapKit</span>
-        <span>Git</span>
-        <span>CI/CD</span>
-    </div>
-</section>
-
-<section class="section">
-    <h2>Experience</h2>
-
-    <div class="card">
-        <h3>iOS Developer — HBSS</h3>
-        <p class="duration">Jul 2024 – Present</p>
-        <ul>
-            <li>Developed and maintained 12+ production iOS apps.</li>
-            <li>Implemented new features, performance optimizations, and bug fixes.</li>
-            <li>Handled App Store releases, code signing, provisioning, and CI/CD pipelines.</li>
-            <li>Worked on real-time systems, authentication flows, and scalable architectures.</li>
-        </ul>
-    </div>
-</section>
-
-<section class="section">
-    <h2>Projects</h2>
-
-    <!-- COOL PROJECT 1 -->
-    <div class="card">
-        <h3>Smart Habit Tracker (iOS)</h3>
-        <p class="tech">Swift • UIKit • MVVM • Core Data</p>
-        <p>
-            A habit-tracking app focused on clean UX and offline-first design.
-            Users can create habits, track streaks, and visualize progress.
-        </p>
-        <ul>
-            <li>MVVM architecture with reusable components</li>
-            <li>Offline persistence using Core Data</li>
-            <li>Custom charts for habit streak visualization</li>
-        </ul>
-        <a href="https://github.com/your-github-username/habit-tracker-ios" target="_blank">
-            View on GitHub →
-        </a>
-    </div>
-
-    <!-- COOL PROJECT 2 -->
-    <div class="card">
-        <h3>QR Attendance System</h3>
-        <p class="tech">Swift • AVFoundation • REST APIs</p>
-        <p>
-            A dual-app QR system where one app generates secure QR codes
-            and another scans and syncs attendance data in real time.
-        </p>
-        <ul>
-            <li>Secure QR payload generation & decoding</li>
-            <li>Camera session handling & error recovery</li>
-            <li>API sync with retry logic for offline scenarios</li>
-        </ul>
-        <a href="https://github.com/your-github-username/qr-attendance-ios" target="_blank">
-            View on GitHub →
-        </a>
-    </div>
-
-    <!-- COOL PROJECT 3 -->
-    <div class="card">
+    <div class="project">
+      <div>
         <h3>Live Ride Tracker</h3>
-        <p class="tech">Swift • Socket.IO • MapKit</p>
         <p>
-            A real-time ride tracking module simulating cab movement,
-            ETA updates, and connection recovery.
+          Real-time ride tracking app with WebSockets, live location updates
+          and Apple Maps integration.
         </p>
-        <ul>
-            <li>Socket.IO-based real-time updates</li>
-            <li>MapKit route rendering & live location updates</li>
-            <li>Session handling & reconnection logic</li>
-        </ul>
-        <a href="https://github.com/your-github-username/live-ride-tracker-ios" target="_blank">
-            View on GitHub →
-        </a>
+        <span class="tech">Swift • UIKit • WebSockets • CoreLocation</span>
+      </div>
+      <a class="repo" href="https://github.com/lekhad25/LiveRideTracker" target="_blank">
+        View on GitHub →
+      </a>
     </div>
-</section>
 
-<section class="section">
-    <h2>Education</h2>
-    <div class="card">
-        <h3>B.Tech — Electrical Engineering</h3>
-        <p>Indian Institute of Technology, Delhi (2020–2024)</p>
+    <div class="project">
+      <div>
+        <h3>SecureVault</h3>
+        <p>
+          Encrypted document & media manager with Face ID / Touch ID protection.
+        </p>
+        <span class="tech">Swift • CryptoKit • Local Encryption</span>
+      </div>
+      <a class="repo" href="https://github.com/lekhad25/SecureVault" target="_blank">
+        View on GitHub →
+      </a>
     </div>
-</section>
 
-<footer>
+    <div class="project">
+      <div>
+        <h3>QR Scanner App</h3>
+        <p>
+          QR scanning app that syncs scanned data with backend APIs in real time.
+        </p>
+        <span class="tech">Swift • AVFoundation • REST APIs</span>
+      </div>
+      <a class="repo" href="https://github.com/lekhad25/QRScannerApp" target="_blank">
+        View on GitHub →
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
     <p>© 2026 Lekha Durge</p>
-</footer>
+  </footer>
 
 </body>
 </html>
